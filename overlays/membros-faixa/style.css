@@ -8,8 +8,8 @@
      overflow: hidden;
 }
  .scroll {
-     width: 480px;
-     height: 45px;
+     width: 240px;
+     height: 23px;
      overflow: hidden;
      position: relative;
      background-image: url('./cover.png');
@@ -49,3 +49,4 @@
     }
 
 }
+
