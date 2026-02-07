@@ -9,7 +9,7 @@
 }
  .scroll {
      width: 1920px;
-     height: 23px;
+     height: 40px;
      overflow: hidden;
      position: relative;
      background-image: url('./cover.png');
@@ -49,5 +49,6 @@
     }
 
 }
+
 
 
