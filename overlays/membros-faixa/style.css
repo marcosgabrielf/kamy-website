@@ -8,7 +8,7 @@
      overflow: hidden;
 }
  .scroll {
-     width: 1920px;
+     width: 1366px;
      height: 45px;
      overflow: hidden;
      position: relative;
@@ -49,6 +49,7 @@
     }
 
 }
+
 
 
 
