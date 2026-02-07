@@ -1,0 +1,84 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ body {
+     font-family: 'Inter', sans-serif;
+     background-color: #f9f8ff;
+     color: #2e2e2e;
+     line-height: 1.6;
+}
+ :root {
+     --roxo: #7a3cff;
+     --roxo-claro: #ece7ff;
+     --branco: #ffffff;
+     --cinza: #dcdcdc;
+}
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+}
+ header {
+     background: var(--roxo);
+     padding: 20px 0;
+     color: var(--branco);
+     text-align: center;
+     border-bottom: 3px solid var(--roxo-claro);
+     animation: fadeInDown 0.7s ease-in-out;
+}
+ nav {
+     margin-top: 10px;
+}
+ nav a {
+     margin: 0 15px;
+     font-weight: 600;
+     transition: 0.3s;
+}
+ nav a:hover {
+     color: var(--roxo-claro);
+}
+ section {
+     padding: 60px 0;
+}
+ .card {
+     background: var(--branco);
+     border-radius: 16px;
+     padding: 30px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+     margin-bottom: 30px;
+     animation: fadeIn 0.6s ease-in;
+}
+ .card h2 {
+     color: var(--roxo);
+     margin-bottom: 15px;
+}
+ footer {
+     text-align: center;
+     padding: 20px;
+     background: var(--roxo);
+     color: var(--branco);
+     border-top: 3px solid var(--roxo-claro);
+}
+ a {
+     color: inherit;
+     text-decoration: none;
+}
+ a:hover {
+     color: var(--roxo);
+     text-decoration: underline;
+}
+ .badge-ia {
+     display: inline-flex;
+     align-items: center;
+     margin-left: 6px;
+     gap: 0;
+}
+ .badge-ia img {
+     width: 16px;
+     height: 16px;
+     display: block;
+     margin: 0;
+     padding: 0;
+}
