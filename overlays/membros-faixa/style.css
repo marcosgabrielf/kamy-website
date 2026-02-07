@@ -16,7 +16,6 @@
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     border-radius: 0px;
      transition: opacity 1s ease-in-out;
      opacity: 0;
 }
@@ -49,6 +48,7 @@
     }
 
 }
+
 
 
 
