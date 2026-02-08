@@ -29,7 +29,7 @@ function iniciarOverlay() {
 
    let segundosContados = 0;
    const tempoAparecendo = 15;
-   const tempoEscondido = 150;
+   const tempoEscondido = 1;
 
    function gerenciarExibicao() {
       const tempoNoCiclo = segundosContados % (tempoAparecendo + tempoEscondido);
@@ -47,3 +47,4 @@ function iniciarOverlay() {
 
 
 document.addEventListener("DOMContentLoaded", iniciarOverlay);
+
