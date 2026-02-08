@@ -28,8 +28,8 @@ function iniciarOverlay() {
    container.style.setProperty("--duration", `${larguraDoBloco / 60}s`);
 
    let segundosContados = 0;
-   const tempoAparecendo = 5;
-   const tempoEscondido = 5;
+   const tempoAparecendo = 15;
+   const tempoEscondido = 150;
 
    function gerenciarExibicao() {
       const tempoNoCiclo = segundosContados % (tempoAparecendo + tempoEscondido);
@@ -44,5 +44,6 @@ function iniciarOverlay() {
    setInterval(gerenciarExibicao, 1000);
    gerenciarExibicao();
 }
+
 
 document.addEventListener("DOMContentLoaded", iniciarOverlay);
