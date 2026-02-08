@@ -12,7 +12,8 @@
      height: 45px;
      overflow: hidden;
      position: relative;
-     background-image: url('./cover.png');
+     background: #2C1346;
+     background: linear-gradient(90deg,rgba(44, 19, 70, 1) 0%, rgba(68, 3, 145, 1) 100%);
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -48,6 +49,7 @@
     }
 
 }
+
 
 
 
